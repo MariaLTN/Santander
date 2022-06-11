@@ -1,0 +1,25 @@
+* Descrição de alguns elementos de estrutura de uma página HTML5:
+
+- Section, representa uma seção genérica de conteúdo e geralmente contém um título. (Por exemplo: Lista de Artigos)
+
+- Aside, representa um conteúdo relacionado ao conteúdo principal da página, ou seja, um conteúdo de apoio. (Por exemplo, uma barra lateral de uma página)
+
+- Footer, representa um rodapé de uma página ou parte da página. (Por exemplo: Rodapé de uma section)
+
+- Header, cabeçalho da página ou parte da página. (Por exemplo: Cabeçalho de uma section)
+
+- Article, representa um conteúdo relevante da página. Muito o usam quando declaram um conteúdo que não precisa de outro para fazer sentido. Recomendado identificar cada article com um título. (Por exemplo: Um artigo de um blog)
+
+- Nav, utilizando quando queremos representar uma navegação formando por um conjunto de links. (Por exemplo, a navegação da Amazon)
+
+---
+
+* Descrição de textos e links de uma página HTML5:
+
+Temos elementos <h1> até <h6> para mensurar a importância dos títulos, temos também a tag <p> que pode conter textos, imagens, links ou outras tag. E com o link temos a tag <a> que aponta para links URL podendo ter vários atributos como "href" (O link que vai ser referenciado), "target" (O modo como o link vai ser aberto, por exemplo: Abrir o link na nova aba ou mesma aba) e outros. 
+
+---
+
+* Descrição de como inserir imagens em uma página HTML5:
+
+- 
