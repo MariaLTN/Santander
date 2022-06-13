@@ -22,4 +22,20 @@ Temos elementos <h1> até <h6> para mensurar a importância dos títulos, temos 
 
 * Descrição de como inserir imagens em uma página HTML5:
 
-- 
+- Temos tag como <img> com 2 campos: scr e alt. O primeiro obrigatório e indica o caminho até a imagem, já o segundo campo é opcional, mas altamente recomendado visto que pode ajudar aos leitores no quesito acessibilidade.
+
+---
+
+* Descrição de listas em uma página HTML5:
+
+- Listas servem para agrupar coleção de itens. Sendo dividido em <ul>, na qual a ordem dos itens não importam, já o <ol> a ordem dos elementos importam, e por fim o <li> que terá os conteúdos em si. 
+
+---
+
+* Introdução e conceitos básicos do CSS3:
+
+- "Você cria regras de estilos para elementos ou grupos de elementos" é uma frase que descreve muito bem o uso do CSS3. A sua formação é dada por um seletor: {declaração}
+
+- Temos também a divisão de ID (Precedida por um # e só pode ser usado uma vez na página) e Classe (Precedido por um .)
+
+- Quando começamos a lidar com CSS3 devemos ficar atentos ao Box Model, que corresponde a partes visíveis e "invisíveis" de um elementos. Da parte mais interna temos o conteúdo, seguido do padding, border e por fim a margin.  
