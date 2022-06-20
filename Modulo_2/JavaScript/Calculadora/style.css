@@ -1,0 +1,57 @@
+
+:root {
+    --Roxo-Fundo: #382A40;
+    --Roxo-Medio: #D3B1C2;
+    --Roxo-Claro: #FBC5FF;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: var(--Roxo-Fundo);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 240px;
+    padding: 10px 0px;
+	align-items: center;    
+}
+
+.tecla {
+    background-color: var(--Roxo-Claro);
+    border: 2px solid var(--Roxo-Medio);
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    font-weight: bolder;
+    font-size: 15px;
+    color: var(--Roxo-Fundo);
+    margin: 5px 2px;
+    cursor: pointer;
+}
+
+.tecla:active {
+    border-color: var(--Roxo-Claro);
+    background-color: var(--Roxo-Fundo);
+    color: white;
+    cursor: pointer;
+}
+
+.visor{
+    margin: 10px 0px; 
+    display: flex;
+}
+
+.tela{
+    color: var(--Roxo-Fundo);
+    padding: 10px 15px;
+    border: 2px solid var(--Roxo-Claro);
+    border-radius: 5px;
+    text-align: right;
+    font-size: 18px;
+    width: 170px;
+    background-color: white;
+}
