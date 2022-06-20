@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nunito:wght@200&family=Poppins&display=swap');
+
+:root{
+    --Fonte_Texto: "Nunito", sans-serif;
+    --Fonte_Guias: "Poppins", sans-serif;
+    --GMail: rgb(101, 159, 198);
+    --Borda_botao: rgba(114, 114, 114, 0.405);
+    --Link: rgb(0,55,130); 
+    --Plano_Fundo: #fafafa;
+    --Divisor:  #dcdcdc;
+    --Botao_Cadastrar: rgb(175, 168, 168);
+    --Facebook: rgb(56,81,133);
+    --Botao_Entrar: rgb(104, 203, 61);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--Plano_Fundo);   
+    font-family: var(--Fonte_Texto);
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: brown;
+}
+
+a:hover{
+    color: var(--Botao_Entrar);
+}
+
+/*Container Geral*/
+.container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    padding-top: 20px;
+} 
+
+/*Fotos*/
+.fotos_esquerda, .fotos_direita{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* border: 1px solid purple; */
+    /* width: 650px; */
+    justify-content: space-evenly;
+    flex: 2;
+
+}
+
+.imagens {
+    border-radius: 50%;
+}
+
+.linha1-esquerda, .linha2-esquerda, .linha3-esquerda{
+    /* border: 2px solid blue; */
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.linha1-direita, .linha2-direita, .linha3-direita{
+    /* border: 2px solid palevioletred; */
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.foto80x80{
+    height: 90px;
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+.foto120x120{
+    height: 120px;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.foto170x170{
+    height: 180px;
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+.foto150x150{
+    height: 160px;
+    margin-bottom: 10px;
+    width: 160px;
+}
+
+.foto200x200{
+    height: 210px;
+    margin-bottom: 10px;
+    width: 210px;
+}
+
+.foto250x250{
+    height: 260px;
+    margin-bottom: 10px;
+    width: 260px;
+}
+
+.foto20x20{
+    width: 40px;
+    height: 40px;
+}
+
+/* Fotos alinhadas no final*/
+.foto0, .foto1, .foto3, .foto6, .foto9, .foto13, .foto16, .foto15{
+    /* border: 2px solid black; */
+    align-self: flex-end;
+    opacity: 80%;
+    /* margin: 30px; */
+}
+
+/*Fotos alinhadas no centro*/
+.foto2, .foto5, .foto14, .foto11, .foto8, .foto17 {
+    /* border: 2px solid orange; */
+    align-self: center;
+    opacity: 80%;
+    /* margin: 30px; */
+}
+
+/*Fotos alinhadas no inicio*/
+.foto4, .foto7, .foto10, .foto12 {
+    /* border: 2px solid purple; */
+    align-self: flex-start;
+    opacity: 80%;
+    /* margin: 30px; */
+}
+
+
+/*Login*/
+.login_container{
+    /* border: 2px solid var(--Divisor); */
+    /* border-radius: 10px; */
+    width: 320px;
+    /* margin: 40px 20px; */
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* padding: 15px; */
+}
+
+.login, .login_alternativo, .cadastrar{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.login{
+    padding: 20px 20px;
+    /* margin-top: 50px; */
+    border-radius: 10px;
+    border: 2px solid var(--Divisor);
+}
+
+.login_alternativo{
+    margin-top: 10px;
+}
+
+.logo{
+    /* border: 1px solid red; */
+    width: 50%;
+    margin: 20px;
+    align-self: center;
+}
+
+.acesso {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.acesso input{
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid var(--Borda_botao);
+}
+
+.acesso input:hover{
+    border-color: var(--Seguido_Por_Cor);
+}
+
+.esqueceu_senha {
+    color: var(--Link);
+    font-size: 13px;
+    font-weight: bolder;
+    margin: 10px 0px 10px 0px;
+    cursor: pointer;
+}
+
+.entrar_botao{
+    padding: 8px 0px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: var(--Botao_Entrar);
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.ou, .entre_com, .nao_tem_conta{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.nao_tem_conta{
+    margin: 15px 0px;
+}
+
+
+.divisao > img {
+    width: 110px;
+}
+
+.divisao{
+    display: flex;
+    /* border: 1px solid red; */
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+.entre_com {
+    margin: 8px 0px 15px 0px;
+}
+
+.redes_sociais{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    font-family: var(--Fonte_Guias);
+    font-weight: bolder;
+}
+
+.botao_rede_social {
+    /* border: 1px solid green; */
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.g_mail{
+    background-color: var(--GMail);
+}
+
+.facebook{
+    background-color: var(--Facebook);
+}
+
+.botao_cadastrar{
+    background-color: var(--Botao_Cadastrar);
+    color: black;
+    font-weight: bold;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    margin: 0px 0px 15px 0px;
+}
+
+/*Footer*/
+footer {
+    background-color: white;
+    font-weight: bolder;
+    padding-top: 20px;
+    text-align: center;
+    border-top: 2px solid var(--Divisor);
+}
+
+footer > p {
+    margin-top: 10px;
+}
