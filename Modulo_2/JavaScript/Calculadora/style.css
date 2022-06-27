@@ -40,7 +40,7 @@ body {
     cursor: pointer;
 }
 
-.visor{
+#visor{
     margin: 10px 0px; 
     display: flex;
 }
