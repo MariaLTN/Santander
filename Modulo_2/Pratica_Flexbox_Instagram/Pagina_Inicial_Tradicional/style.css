@@ -52,7 +52,6 @@ header {
 /* Nav */
 .container_nav {
     display: flex;
-    /* border: 1px solid red; */
     flex-direction: row;
     justify-content: space-between;
     /* margin:30px 0px; */
@@ -61,11 +60,9 @@ header {
 /* Icon */
 .container_nav_icon {
     display: flex;
-    /* border: 1px solid blue; */
 }
 
 .item_nav_icon{
-    /* border: 1px solid orange; */
     text-align: center;
     margin: 5px;
     padding: 0 7px;
@@ -78,20 +75,17 @@ header {
 /* Titulo */
 .container_nav_titulo {
     display: flex;
-    /* border: 2px solid firebrick; */
     flex-grow: 2;
     
 }
 
 .item_nav_titulo {
-    /* border: 2px solid black; */
     padding: 0 10px;
 }
 
 /* Pesquisa */
 .container_nav_pesquisa {
     display: flex;
-    /* border: 2px solid brown; */
     flex-grow: 1;
     justify-content: center;
 }
@@ -132,7 +126,6 @@ header {
 /*Bio*/
 .perfil {
     display: flex;
-    /* border: 1px solid red; */
     margin-top: 50px;
     height: 250px;
 }
@@ -154,7 +147,6 @@ header {
     flex-direction: column;
     margin-left: 30px;
     font-family: var(--Fonte_Texto);
-    /* border: 2px solid orange; */
     align-items: flex-start;
     justify-content: space-around;
 }
@@ -163,7 +155,6 @@ header {
 .container_descricao {
     display: flex;
     margin-top: 15px;
-    /* border: 1px solid rgb(0, 0, 0); */
 }
 
 .descricao_titulo_usuario {    
@@ -217,18 +208,15 @@ header {
 /*Numeros*/
 .numeros_container{
     display: flex;
-    /* border: 2px solid black; */
     padding: 15px 0px 20px 0px;
 }
 
 .explicacao_numeros {
-    /* border: 2px solid orange; */
     margin: 0px 0px 0px 10px;
     display: flex;
 }
 
 .dados{
-    /* border: 2px solid orange; */
     text-align: center;
     font-weight: bolder;
     margin: 0px 7px 0px 0px;
@@ -242,7 +230,6 @@ header {
 .bio_container{
     display: flex;
     flex-direction: column;
-    /* border: 2px dashed black; */
     flex-wrap: wrap;
     font-weight: bolder;
     margin-left: 10px;
@@ -263,7 +250,6 @@ header {
 }
 
 .seguidores_conhecidos{
-    /* border: 1px solid yellow; */
     display: flex;
     color: var(--Seguido_Por_Cor);
     margin-top: 15px;
@@ -271,7 +257,6 @@ header {
 }
 
 .seguidores{
-    /* border: 1px solid gray; */
     color: var(--Seguidores_Cor);
     margin-left: 5px;
     font-size: 10px;
@@ -279,7 +264,6 @@ header {
 
 /*Guias*/
 .guia_container{
-    /* border: 1px solid red; */
     border-top: 1px solid var(--Divisor);
     display: flex;
     justify-content: space-around;
@@ -302,7 +286,6 @@ header {
 .publicacoes, .marcados, .publicacoes:hover, .marcados:hover, .publicacoes:visited, .marcados:visited{
     display: flex;
     color: var(--Seguidores_Cor);
-    /* border: 1px solid gold; */
 }
 
 .guia_texto{
@@ -311,11 +294,8 @@ header {
 
 /*Fotos*/
 .fotos_container{
-    /* border: 1px solid red; */
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center;
-    align-content: center; */
 }
 
 .img_feed {
@@ -324,7 +304,6 @@ header {
 }
 
 footer{
-    /* border: 1px solid red; */
     border-top: 1px solid var(--Divisor);
     padding: 30px 0px 30px 0px;
     margin-top: 30px;
@@ -334,5 +313,3 @@ footer{
     font-size: 15px;
     background-color: white;
 }
-
-/*Media Queries*/
