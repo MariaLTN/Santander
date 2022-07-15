@@ -3,17 +3,19 @@ O que foi visto no Módulo 2:
 - [Ok] Introdução a criação de Website com HTML5 e CSS3.
 - [Ok] Posicionando elementos com Flexbox em CSS.
 - [Ok] (Desafio de Projeto) Recriando a página inicial do Instagram .
-- Introdução ao JavaScript.
-- Sintaxe e Operadores.
-- Variáveis e Tipos.
-- Funções.
-- Coleções.
-- Map, Filter e Reduce.
-- Debugging e Error Handling.
-- JavaScript Assíncrono.
-- Orientação a Objetos.
-- (Desafio de Código) Desafios Iniciais JavaScript - Santander Fullstack Developer. 
-- Trabalhando com Módulos em JavaScript.
-- Manipulação a DOM com JavaScript.
-- Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces.
-- (Desafio de Projeto) Introdução Prática ao TypeScript.
+- [Ok] Introdução ao JavaScript.
+- [Ok] Sintaxe e Operadores.
+- [Ok] Variáveis e Tipos.
+- [Ok] Funções.
+- [Ok] Coleções.
+- [Ok] Map, Filter e Reduce.
+- [Ok] Debugging e Error Handling.
+- [Ok] JavaScript Assíncrono.
+- [Ok] Orientação a Objetos.
+- [Ok] (Desafio de Código) Desafios Iniciais JavaScript - Santander Fullstack Developer. 
+- [Ok] Trabalhando com Módulos em JavaScript.
+- [Ok] - Manipulação a DOM com JavaScript.
+- [Ok - Dificuldades]  Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces.
+- [Ok] (Desafio de Projeto) Introdução Prática ao TypeScript.
+
+Observação: Minhas notas sobre o módulo de TypeScript são: A resolução da aula estava baixa, não dava para ver os comandos, a cor e fonte escolhidas pelo instrutor também não ajudaram. É ideal para quem possui algum conhecimento sobre o TypeScript, logo não é para iniciantes. O instrutor parecia um pouco perdido em algumas aulas. 
